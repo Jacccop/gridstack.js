@@ -221,7 +221,6 @@ export class DDResizable extends DDBaseImplement implements HTMLElementExtendOpt
       this.el.parentElement.style.position = 'relative';
     }
     this.el.style.position = 'absolute';
-    this.el.style.opacity = '0.8';
     return this;
   }
 
